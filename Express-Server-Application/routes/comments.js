@@ -8,7 +8,6 @@ const commentsRouter = Router();
  */
 commentsRouter.get("/", (req, res, next) => {
   res.json(comments);
-  // next(error(402, 'Something went wrong!'))
 });
 
 

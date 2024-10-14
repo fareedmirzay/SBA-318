@@ -11,7 +11,6 @@ const postsRouter = Router();
  */
 postsRouter.get("/", (req, res, next) => {
   res.json(posts);
-  // next(error(402, 'Something went wrong!'))
 });
 
 
